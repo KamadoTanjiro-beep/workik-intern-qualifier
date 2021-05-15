@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.leftSection {
+  background-color: rgb(55, 164, 253) !important;
+  height: 100vh;
+  padding: 50px 50px;
+}
+
+.spacer {
+  margin-top: 15vh;
+}
+
+.rightSection {
+  padding: 50px 50px;
+}
+
+@media only screen and (max-width: 640px) {
+  .leftSection {
+    height: auto;
+    border-radius: 3px !important;
+  }
+
+  .rightSection {
+    padding: 20px 20px;
+  }
+
+  .spacer {
+    margin-top: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+  .spacer {
+    margin-top: 25vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .spacer {
+    margin-top: 34vh;
+  }
+}
